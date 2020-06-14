@@ -1,0 +1,1 @@
+kubectl exec -n kube-system antrea-agent-q25h8 -c antrea-ovs -- ovs-ofctl dump-flows br-int --names table=0
